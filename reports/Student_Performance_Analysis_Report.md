@@ -42,7 +42,7 @@ The analysis sample is 1044 student-subject records (395 Math, 649 Portuguese). 
 | Math | 395 | 10.42 | 4.58 | 11 |
 | Portuguese | 649 | 11.91 | 3.23 | 12 |
 
-![Grade distribution](figures/fig1_grade_distribution.png)
+![Grade distribution](../figures/fig1_grade_distribution.png)
 
 **Figure 1.** G3 is slightly left-skewed with a small spike at 0 (students who did not sit the final assessment).
 
@@ -66,7 +66,7 @@ Binary predictors use Welch t-tests with Mann-Whitney U as a robustness check, m
 | Pass (G3>=10) vs Extra school support | pass rate 0: 78%, 1: 74% | chi2=1.0 | Cramer V=0.03 | 0.314 | 0.314 |
 | Pass (G3>=10) vs In a relationship | pass rate 0: 80%, 1: 74% | chi2=6.1 | Cramer V=0.08 | 0.014 | 0.042 |
 
-![Key relationships](figures/fig2_key_relationships.png)
+![Key relationships](../figures/fig2_key_relationships.png)
 
 **Figure 2.** Final grade by study time, past failures and (log) absences.
 
@@ -91,7 +91,7 @@ Spearman rank correlations with G3 (sorted by strength):
 | freetime | -0.08 | 0.008 | 0.041 |
 | health | -0.08 | 0.009 | 0.041 |
 
-![Correlation heatmap](figures/fig3_correlation_heatmap.png)
+![Correlation heatmap](../figures/fig3_correlation_heatmap.png)
 
 ## 5. Regression
 
@@ -135,7 +135,7 @@ Ordinary least squares on G3 using background and behaviour variables only (stud
 
 For context, adding the mid-year grade G2 raises R2 to 0.844 (adjusted 0.842): prior performance is by far the strongest predictor.
 
-![Diagnostics](figures/fig4_regression_diagnostics.png)
+![Diagnostics](../figures/fig4_regression_diagnostics.png)
 
 **Figure 4.** Residuals are roughly symmetric, with a visible tail from the zero-grade students, which is why the model is repeated without them.
 
