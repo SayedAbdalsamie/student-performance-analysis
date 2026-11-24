@@ -1,0 +1,14 @@
+comparison,group_summary,test,effect_size,p,p_holm
+Sex,F: 11.45 (SD 3.87) vs M: 11.20 (SD 3.85),"Welch t=1.02, Mann-Whitney p=0.148",Cohen d=-0.06,0.14770020002878792,0.29540040005757584
+Wants higher education (0/1),0: 8.35 (SD 3.55) vs 1: 11.62 (SD 3.78),"Welch t=-8.28, Mann-Whitney p=9.27e-18",Cohen d=0.89,9.271247681956276e-18,2.1323869668499435e-16
+Internet at home (0/1),0: 10.53 (SD 3.86) vs 1: 11.55 (SD 3.84),"Welch t=-3.47, Mann-Whitney p=7.4e-05",Cohen d=0.26,7.396983366073728e-05,0.0007396983366073728
+Extra school support (0/1),0: 11.45 (SD 3.98) vs 1: 10.49 (SD 2.71),"Welch t=3.44, Mann-Whitney p=6.45e-05",Cohen d=-0.28,6.445283899678014e-05,0.0007089812289645816
+Home address (R/U),R: 10.60 (SD 3.98) vs U: 11.62 (SD 3.78),"Welch t=-3.74, Mann-Whitney p=1.59e-05",Cohen d=0.26,1.5943850613750687e-05,0.00019132620736500824
+Subject,Math: 10.42 (SD 4.58) vs Portuguese: 11.91 (SD 3.23),"Welch t=-5.67, Mann-Whitney p=1.95e-07",Cohen d=0.38,1.9477574100362618e-07,2.9216361150543926e-06
+Weekly study time (1-4),1: 10.6; 2: 11.3; 3: 12.5; 4: 12.3,Kruskal-Wallis H=40.1,epsilon2=0.036,1.0140685862603782e-08,1.723916596642643e-07
+Past class failures,0: 12.1; 1: 8.4; 2: 7.5; 3: 6.8,Kruskal-Wallis H=178.4,epsilon2=0.169,1.9525038084174172e-38,4.686009140201802e-37
+Mother's education (0-4),0: 12.1; 1: 10.2; 2: 11.0; 3: 11.2; 4: 12.5,Kruskal-Wallis H=67.6,epsilon2=0.061,7.259276013552641e-14,1.5244479628460546e-12
+Weekend alcohol use (1-5),1: 11.7; 2: 11.5; 3: 11.3; 4: 10.5; 5: 10.4,Kruskal-Wallis H=27.9,epsilon2=0.023,1.2983395374098027e-05,0.00016878413986327434
+Pass (G3>=10) vs Wants higher education,"pass rate 0: 48%, 1: 81%",chi2=47.9,Cramer V=0.21,4.391371429347921e-12,8.782742858695843e-11
+Pass (G3>=10) vs Extra school support,"pass rate 0: 78%, 1: 74%",chi2=1.0,Cramer V=0.03,0.3141552804672988,0.3141552804672988
+Pass (G3>=10) vs In a relationship,"pass rate 0: 80%, 1: 74%",chi2=6.1,Cramer V=0.08,0.013899323543854446,0.04169797063156334
